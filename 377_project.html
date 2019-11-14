@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>377 spending information</title>
+  <link rel="stylesheet" type="text/css" href="./lab_styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="wrapper">
+      <div class="header">Load Data</div>
+      <button class="button" onclick="loadData()">Load Some JSON from a server</button>
+      <div class="content"></div>
+      <div class="footer"></div>
+    </div>
+  </div>
+  <script>
+    function loadData() {
+      console.log('fetch'); // confirm code is running on click
+      fetch('https://data.princegeorgescountymd.gov/resource/364y-gm2b.json')
+        .then(res => res.json())
+        .then(res => {
+          console.log(res); // logging step to check what we got
+          return res;
+        })
+    }
+
+  </script>
+</body>
+
+</html>
