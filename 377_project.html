@@ -24,8 +24,42 @@
           console.log(res); // logging step to check what we got
           return res;
         })
-    }
+        .then(res => {
+          instructions = document.querySelector('.content');
+          instructions.innerHTML = '';
+          let fire = [],  health = [], central_service = 
+            [], public_works = [], environment = [], police = [], family_services = [],
+            correction = [], county_council = [], na = [], sheriff = [];
+            //put below into a function for each agency
+          firesum = calculate_sum(0,res,"FIRE/EMS", fire);
+          healthsum = calculate_sum(0,res,"HEALTH", health);
+          centralsum = calculate_sum(0,res,"CENTRAL SERVICES", central_service);
+          publicsum = calculate_sum(0,res,"PUBLIC WORKS & TRANSPORTATION", public_works);
+          envirosum = calculate_sum(0,res,"ENVIRONMENT", environment);
+          policesum = calculate_sum(0,res,"POLICE", police);
+          famsum = calculate_sum(0,res,"FAMILY SERVICES", family_services);
+          correctionsum = calculate_sum(0,res,"CORRECTIONS", correction);
+          countysum = calculate_sum(0,res,"COUNTY COUNCIL", county_council);
+          nasum = calculate_sum(0,res,"NON-DEPARTMENTAL", na);
+          sheriffsum = calculate_sum(0,res,"SHERIFF", sheriff);
 
+          console.log("SUM= " + sheriffsum);
+          res = instructions;
+          return res;
+          })
+          }
+
+    function calculate_sum(sum, res, agency, fire) {
+      for(x = 0; x<1000; x++){
+            if(res[x].agency == agency) {
+              console.log(res[x]);
+              fire.push(res[x]);
+              sum = sum + parseFloat(res[x].amount);
+              console.log(sum)
+            }
+      }
+      return sum;  
+    };
   </script>
 </body>
 
