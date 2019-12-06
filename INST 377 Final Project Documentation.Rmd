@@ -1,0 +1,66 @@
+---
+title: "The Persistent 5: INST 377 Project Report"
+output: word_document
+---
+**User Manual** :
+
+The stakeholders of the Prince George's County Rival Retrieval App are government agengies, 
+commerical businesses and entrepreneurs seeking to do business in the Prince George's County
+area. The website should be can be used on any computer (desktop version) and will need to run
+on live server.
+The app is beneficial in measuring the scoping of government funds allocated to certain businesses
+or events; this assist stakeholders in deciding which locations/businesses are most lucrative to
+take advantage of new business opportunity. 
+
+**Initial Problem** :
+
+There exists an underlying problem within our communities and local businesses where there is a significant lack of information given as to where the funds from our government goes to. Often companies are either shown where money is being placed into vague non specific avenues or even no information is provided at all. Companies have no way to directly get information about what PG is financing or how they can appeal to the government for funding and so our website aims to streamline that information by making it accessible and easy to use along with visualizations.
+
+**Technology used** : Visual Studio Code, SCSS Google Charts
+
+We initially decided on using the React JS because for the type of website that we&#39;ll be building we will need to have an effective user interface that is both user friendly and easy to implement for versatility as we&#39;re gonna have to get it to work with our backend. After some attempts it proved to be rather difficult for us to use so we decided to drop it. Then we learned about Google Charts which allows for us to create the necessary visualizations we need and integrate into our HTML website so instead we chose that one.
+
+**Progress** :
+
+Our first foray into our final project was first to decide as to what our project was going to be about. There was some brainstorming and indecisiveness on what to decide on. Finally we initially decided to go with the project of making a website that will display the information of crimes within certain areas of PG County which will then be used by real estate developers for them to decide on where to invest into in the PG County area. However after discussion with our teacher we quickly realized the problems with using the crime statistics and so we had to completely scrape that and redo what our project is gonna be all about.
+
+To get a better idea we immediately met up together after class to formulate a new main topic for our project. We were considering a lot of other topics such as food safety within pg county, environment quality or urban quality. Eventually we decided to put our focus into PG county&#39;s financial system. A problem we realized is the lack of direct and succinct information in relation as to what specifically is the PG county government is spending on. When we decided our main stakeholders are other companies looking for ways to get government funding it allowed for everything else to fall better into place.
+
+From that we remade our project proposal which was considered an improvement and then we created our project presentation to present to the class. Jasmine was a significant help in our presentation as she has a lot of experience in doing presentation. After the presentation we got to work to start the development of our project. We first decided to do the backend of our website first using HTML and SCSS via Visual Code Studio. Jonathan Bui developed the overall backend of our website. For our front end we intially tried to use React but it proved to be rather difficult so we decided to drop it. Getting our front-end to work with our back-end proved to be the most difficult aspect of our project as the back-end was developed ahead of time compared to our front-end there was a lot of errors popping up initially that we had to diligently work out. Over time we finally managed to fix all the kinks in the system and get it all to work. With that we tested it out one last time and it worked to our satisfaction.
+
+**Failures** :
+
+We initially had to scrap our original idea which slightly set us back since we then needed to find and agree to a completely new topic that would be possible to our current skills. Thankfully we did work that out but it still had an effect on us.
+
+Although we had our backend completed ahead of time, our front end was proven to be the most difficult. Our front end was gonna use React JS which ended up being somewhat more difficult than we expected. Not to mention getting our front end to work with our backend without any difficulties. Instead we settled with Google charts. Trying to work with bootstrap was pretty difficult as it reformatted our front-end so it was dropped.
+
+Our original attempt at combining the front end with our back end was the most difficult as we have to do the necessary steps to ensure both ends were compatible with each other worked together in unison. It was rather difficult but we eventually got it to work.
+
+**Successes** :
+
+The back-end was developed very early on which certainly saved a lot of time and future stress. Thanks to this we were capable of building our data visualization way more easier.
+
+We didn&#39;t have to change our stakeholders too much when we changed from our initial problem so it kept us on a consistent path of development in tailoring the website/app to our main target market. What is most helpful is that we scouted out each of our skills and assigned them to different roles that were the most comfortable with within our project which allowed for us to work in tandem effectively both in group and independent time. The skills we learned in class helped a lot in developing the project.
+
+**Acknowledgment** :
+
+- Danielle Lewis: Being Team Leader, creating the Power Point and writing a seperate final report
+- Jonathan Bui: Coding and creating the backend of our website
+- Jasmine Brunson: Creating the data visualizations on the front-end
+- Aki Stephens: Creating the front-end of our website
+- Alex Leitch: For being a cool and understanding professor
+- Sanmi Ayegbusi: Documenting all of the progress
+
+**Read Me**:
+Prince George's County Business Rival Retrieval App
+
+Our website aims to provide transparency about government spending to various companies looking for potential government funding and the general audience. When you access our website it will send you to a link that allows for you to click on the government&#39;s spending for each year.
+
+**Developer Manual** :
+
+- --Go to our url: https://github.com/jonathanbui810/final_project
+- --Clone/download repository
+- --Open in visual studio code
+- --Download live server from app store
+- --Click in the HTML file and launch it
+- --Once launched simply click the button for the desired year to view the visualization
