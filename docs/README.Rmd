@@ -1,0 +1,31 @@
+---
+title: "README"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+
+**Read Me**:
+
+Prince George's County Business Rival Retrieval App
+
+Our website aims to provide transparency about government spending to various companies looking for potential government funding and the general audience. When you access our website it will send you to a link that allows for you to click on the government&#39;s spending for each year.Users should be able to view the websit on desktop broswers. 
+
+
+**Developer Manual** :
+Go to our url: github.com/jonathanbui810/final_project
+Clone/download repository
+Open in visual studio code
+Download live server from app store
+Click in the HTML file and launch it 
+Once launched simply click the button for the desired year to view the visualization  (
+https://docs.google.com/document/d/1EQ8Fdw8i1fQf5AyJhUK1ccl3lUc_5DhPqCbgK1lF33I/edit?usp=sharing
+
+** User Manual **
+https://docs.google.com/document/d/1fJA6TLCRgBl-icq00YRzap6cRc8rdwCiooIQtGQQh48/edit?usp=sharing
+

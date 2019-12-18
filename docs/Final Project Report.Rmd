@@ -1,0 +1,45 @@
+---
+title: "Final Project Report"
+output: html_document
+---
+
+Prince George's County Business Rival Retrieval App
+ 
+Team members
+Sanmi Ayegbusi, Jasmine Brunson, Jonathan Bui, Danielle Lewis, Aki Stephens
+Link to app
+http://www.terpconnect.umd.edu/~jbui1/377/ 
+ 
+Information problem
+ 
+	Government contracting companies and entrepreneurs in Prince George's County need to find more information regarding what the counties are focusing their money on and what agencies/departments are getting less funding. This information is pertinent as government contracting companies want to provide services that the government can purchase to fulfill their needs and achieve their missions. With government spending information, they could figure out how much funding is going to specific government departments, the top funded departments, the least funded departments, and compare government spending for that fiscal year compared to the last.
+ 
+Stakeholders/target browsers
+ 
+	We decided to keep our stakeholders from our original project proposal but refine our list to exclude the general public as that was too broad. We are still focusing on prospective government contractors and entrepreneurs and Prince George's county government. The general public is free to use our app but it is not marketed towards them. Anyone who would like to submit a bid for a government contract would benefit from the information that we can provide. The prospective government contractors and entrepreneurs will need to prepare their bids by gathering the information regarding the spending per Prince George's county department and gauging new client interest. 
+ 
+Data sources
+ 
+	Our data sources are also still the exact same from our project proposal. We are using APIs that are the direct datasets that display the amount of spending by government agencies in Prince George's County, MD. They are titled "Spending Information for" fiscal year 2017 and 2018. We used the two in order to compare the amount of government spending in the different fiscal years. The APIs will allow us to analyze the spending of the government and properly identify the agencies/departments with the highest and lowest government spending. This can be used to assist the prospective government contractors in picking agencies/departments that would be willing to accept their bid. The data sets include the following variables for comparison: "Payee name, Agency, Zip code,Amount, Payment Description". 
+Spending Information for FY17 
+Spending Information for FY18
+Strategies and Solution
+ 
+	In order to complete this project we divided up the work so that everyone who felt more comfortable with one aspect of the project was able to do that. We had three people assigned to work on the website including the back end and then the front end. We had two other people work on the documentation and report. For the back end, our expert aggregated the amount of spending per each department to have a total amount of spending. That information was used in a pie chart that was created using google visualizations for that graphic component of the website. When someone hovers over a department they can see the total amount of spending for that department, and the pie chart shows the percentages of spending in comparison to the other departments. You can also compare this data to the other fiscal year by clicking on that button to switch fiscal years.
+ 
+Technical system decision rationale
+ 
+	We used the Prince George's county API as mentioned in the Data sources section in order to retrieve the data. We used Javascript to fetch the data from the API in order to create functions to aggregate the spending data. We used HTML and SCSS for the front end. We used SASS (Syntactically Awesome Style Sheets) because it was easier for us to use and provided a more clean and professional look than if we tried to develop the page with standard css. We also used google charts which were recommended to us by our professor. We originally wanted to use react but we did not have any experience with that for visualization. Instead, we chose to use google charts because it was recommended and easier to implement. Lastly, we used terpconnect in the back end in order to host our public server. 
+ 
+How our solution addresses the problem
+ 
+	Our solution addresses the problem because it provides a web application in which someone who wants to gain information about government spending in Prince George's County has an easy way to compare data side by side. A government contractor or entrepreneur can select from the various departments within the county government and then either select another department to compare spending on, or compare the same department but from a different fiscal year. This is helpful because comparing the difference in spending for fiscal years can indicate if the spending has increased, decreased, or remained stagnant. Also, comparing different departments can indicate if one is more valued than another, or if more resources are needed for one compared to another. 
+ 
+Challenges faced and impact on final design
+ 
+	Our main challenges were getting the back end done well before any other part of the project, and not finishing the other technical aspects of the project until about two days before the final due date. Our technical experts on the project had other group projects that were the focus of their school work and they also just got back from Thanksgiving break during the last week of the project. This made it difficult to complete all aspects of the projects right after the break. This caused us to try to determine what library to use for our graphics and if we had enough time to learn how to implement it. Also, some of our group members liked working individually but some of our group members liked working together. This made it a bit difficult to come together in the end to complete the project but it was only a minor set back. 
+ 
+Possible future work directions with this problem
+
+	If we had more time to work on this project and we had more datasets from other counties, it would be possible for us to include all county governments in Maryland or also in surrounding areas. This would still serve the same purpose of what we use the app for now, but it would have a larger geographic region so that if someone didn't want to be confined to Prince George's county they could compare data to other counties in the surrounding areas. Additionally, we could have more details about one specific department so they can thoroughly compare it to other departments. This information could include the payee name and what that payment was for. Each department could have its own page. 
+
